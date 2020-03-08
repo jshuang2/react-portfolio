@@ -1,17 +1,18 @@
 import React from 'react'
 import "./style.css"
+import {Link} from "react-router-dom"
 
 function Header() {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container">
-                    <a className="navbar-brand" href="#">Jeff Huang</a>
+                    <Link className="navbar-brand" to="/">Jeff Huang</Link>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav ml-auto">
-                            <a className="nav-item nav-link pageLink" href="#">About</a>
-                            <a className="nav-item nav-link pageLink" href="#">Portfolio</a>
-                            <a className="nav-item nav-link pageLink" href="#">Resume</a>
+                            <Link className="nav-item nav-link pageLink" to="/about">About</Link>
+                            <Link className="nav-item nav-link pageLink" to="/portfolio">Portfolio</Link>
+                            <a className="nav-item nav-link pageLink" href="https://drive.google.com/file/d/1T6dZa208A94FNBsQ17-LMO7hJIxpcOzt/view" target="_blank" rel="noopener noreferrer">Resume</a>
                         </div>
                         
                         <div className="navbar-nav socialMediaList">

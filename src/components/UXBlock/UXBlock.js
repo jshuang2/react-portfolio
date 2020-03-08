@@ -7,7 +7,7 @@ class CodeBlock extends Component {
         return (
             <div className="container">
                 <div className="headerLine">
-                    <h3 className="bodyHeader">Code</h3>
+                    <h3 className="bodyHeader">UX/UI Design</h3>
                 </div>
                 <div className="cardWrapper">
                     <div className="card">
