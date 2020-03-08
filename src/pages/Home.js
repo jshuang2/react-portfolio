@@ -1,6 +1,7 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import Header from "../components/Header/Header";
 import HomeJumbotron from "../components/HomeJumbotron/HomeJumbotron";
+import CodeBlock from "../components/CodeBlock/CodeBlock";
 
 class Home extends Component {
     render() {
@@ -8,7 +9,7 @@ class Home extends Component {
             <div>
                 <Header />
                 <HomeJumbotron />
-                {/* <h1>Welcome to the home page!</h1> */}
+                <CodeBlock />
             </div>
         )
     }

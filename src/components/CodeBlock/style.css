@@ -1,0 +1,47 @@
+.headerLine {
+    height: 1px;
+    background: #DDD;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    position: relative;
+ }
+
+ .bodyHeader {
+    background: #fafafa;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    color: #666666;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 0px;
+ }
+
+ .cardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 320px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.4);
+    padding-bottom: 60px;
+}
+
+.imagePlaceholder {
+    height: 200px;
+    margin: 10px;
+    width: 300px;   
+}
