@@ -7,6 +7,9 @@
 .nav-item {
     color: white !important;
     font-size: 1.1rem;
+    float: right;
+    padding: 0 14px 0 14px;
+    list-style-type: none;
 }
 
 .navbar-brand {
