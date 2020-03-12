@@ -1,14 +1,14 @@
 #aboutMeHeader {
     text-align: center;
-    padding-top: 60px;
+    padding-top: 3.75rem;
     font-weight: bold;
-    font-size: 68px;
+    font-size: 4.25rem;
  }
 
 .headerLineShort {
-    height: 1px;
+    height: 0.0625rem;
     background: #DDD;
-    margin: 20px auto;
+    margin: 1.25rem auto;
     position: relative;
     width: 50%;
 }
@@ -18,18 +18,18 @@
 }
 
 #aboutJumbotron {
-    height: 740px;
+    height: 46.25rem;
     background-color: white;
-    box-shadow: 0 0 10px 0 #636363;
+    box-shadow: 0 0 0.625rem 0 #636363;
 }
 
 #aboutJumbotronContent {
-    padding-top: 40px;
+    padding-top: 2.5rem;
     float:left;
-    max-width: 570px;
+    max-width: 35.625rem;
 }
 
-#aboutHeaderParagraphText {
-    font-size: 18px;
-    line-height: 26px;
+.aboutHeaderParagraphText {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
 }

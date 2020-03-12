@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from "../components/Header/Header";
 import AboutJumbotron from "../components/AboutJumbotron/AboutJumbotron";
+import CoreSkills from "../components/CoreSkills/CoreSkills";
 
 class About extends Component {
     render() {
@@ -8,7 +9,7 @@ class About extends Component {
             <div>
                 <Header />
                 <AboutJumbotron />
-                Welcome to the About page!
+                <CoreSkills />
             </div>
         )
     }
