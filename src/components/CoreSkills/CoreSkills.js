@@ -11,14 +11,17 @@ import "./style.css"
 function CoreSkills() {
     return (
         <div className="container">
-            <div>
-                <img src={ReactLogo} alt="React" className="skillsIcon"></img>
-                <img src={MySQLLogo} alt="MySQL" className="skillsIcon"></img>
-                <img src={JavaScriptLogo} alt="JavaScript" className="skillsIcon"></img>
-                <img src={HTMLLogo} alt="HTML" className="skillsIcon"></img>
-                <img src={CSSLogo} alt="CSS" className="skillsIcon"></img>
-                <img src={NodeLogo} alt="NodeJS" className="skillsIcon"></img>
-                <img src={MongoLogo} alt="MongoDB" className="skillsIcon"></img>
+            <h3 className="centerText" id="aboutSectionHeader">Core Skills</h3>
+            <div className="d-flex justify-content-center">
+                <div>
+                <img src={ReactLogo} alt="React" className="skillsIcon iconOne"></img>
+                <img src={MySQLLogo} alt="MySQL" className="skillsIcon iconTwo"></img>
+                <img src={JavaScriptLogo} alt="JavaScript" className="skillsIcon iconOne"></img>
+                <img src={HTMLLogo} alt="HTML" className="skillsIcon iconTwo"></img>
+                <img src={CSSLogo} alt="CSS" className="skillsIcon iconOne"></img>
+                <img src={NodeLogo} alt="NodeJS" className="skillsIcon iconTwo"></img>
+                <img src={MongoLogo} alt="MongoDB" className="skillsIcon iconOne"></img>
+                </div>
             </div>
         </div>
     )

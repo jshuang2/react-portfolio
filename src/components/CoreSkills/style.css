@@ -1,3 +1,19 @@
 .skillsIcon {
     max-width: 5rem;
+    margin: 0 0.625rem 0 0.625rem
+}
+
+#aboutSectionHeader {
+    font-size: 1.875rem;
+    font-weight: bold;
+    padding: 2.5rem 0 1rem 0;
+}
+
+.iconsList {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.iconTwo {
+    transform: translateY(1.875rem);
 }
