@@ -1,5 +1,5 @@
 .skillsIcon {
-    max-width: 5rem;
+    max-width: 7rem;
     margin: 0 0.625rem 0 0.625rem
 }
 
@@ -7,13 +7,8 @@
     font-size: 1.875rem;
     font-weight: bold;
     padding: 2.5rem 0 1rem 0;
+    margin-bottom: 40px;
 }
 
-.iconsList {
-    margin: 0 auto;
-    justify-content: center;
-}
 
-.iconTwo {
-    transform: translateY(1.875rem);
-}
+

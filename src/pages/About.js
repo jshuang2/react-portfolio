@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from "../components/Header/Header";
 import AboutJumbotron from "../components/AboutJumbotron/AboutJumbotron";
 import CoreSkills from "../components/CoreSkills/CoreSkills";
+import Form from "../components/Form/Form";
 
 class About extends Component {
     render() {
@@ -10,6 +11,7 @@ class About extends Component {
                 <Header />
                 <AboutJumbotron />
                 <CoreSkills />
+                <Form />
             </div>
         )
     }
