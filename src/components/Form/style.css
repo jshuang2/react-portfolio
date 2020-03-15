@@ -1,0 +1,28 @@
+#contactFormJumbotron {
+    height: 500px;
+    background-color: white;
+    border-top: solid .5px;
+    margin-top: 100px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#contactFormHeader {
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#contactForm {
+    max-width: 60%;
+    margin-top: 20px;
+}
+
+#seattlePic {
+    float: right;
+    height: 300px;
+    margin-top: 20px;
+    box-shadow: 11px 10px 16px -6px rgba(150,150,150,1);
+    transform: translateY(12px)
+}
