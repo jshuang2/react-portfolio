@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import "./style.css"
-import SeattlePic from "../../utils/assets/images/Seattle.jpg";
 import SpaceNeedle from "../../utils/assets/images/space-needle.jpg";
 
 function Form() {
