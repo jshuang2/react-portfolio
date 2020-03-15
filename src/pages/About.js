@@ -3,6 +3,7 @@ import Header from "../components/Header/Header";
 import AboutJumbotron from "../components/AboutJumbotron/AboutJumbotron";
 import CoreSkills from "../components/CoreSkills/CoreSkills";
 import Form from "../components/Form/Form";
+import Footer from "../components/Footer/Footer";
 
 class About extends Component {
     render() {
@@ -12,6 +13,7 @@ class About extends Component {
                 <AboutJumbotron />
                 <CoreSkills />
                 <Form />
+                <Footer />
             </div>
         )
     }
