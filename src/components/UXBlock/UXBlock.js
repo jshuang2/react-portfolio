@@ -9,7 +9,7 @@ class CodeBlock extends Component {
                 <div className="headerLine">
                     <h3 className="bodyHeader">UX/UI Design</h3>
                 </div>
-                <div className="cardWrapper">
+                <div className="cardWrapper" id="uxWrapper">
                     <div className="card">
                         <img className="imagePlaceholder" src={Placeholder} alt="Project One" />
                     </div>
