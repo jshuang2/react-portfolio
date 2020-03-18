@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Google Books Search",
+        "image": "../utils/assets/images/image-placeholder.png",
+        "link": "https://github.com/jshuang2/react-google-books-search"
+    },
+    {
+        "id": 2,
+        "name": "React Clicky Game",
+        "image": "../utils/assets/images/image-placeholder.png",
+        "link": "https://github.com/jshuang2/react-clicky-game"
+    },
+    {
+        "id": 3,
+        "name": "React Clicky Game",
+        "image": "../utils/assets/images/image-placeholder.png",
+        "link": "https://github.com/jshuang2/react-clicky-game"
+    },
+    {
+        "id": 4,
+        "name": "Mongo Web Scraper",
+        "image": "../utils/assets/images/image-placeholder.png",
+        "link": "https://github.com/jshuang2/MongoWebScraper"
+    },
+    {
+        "id": 5,
+        "name": "Spotifind Me!",
+        "image": "../utils/assets/images/image-placeholder.png",
+        "link": "https://github.com/eawhite00/Project2"
+    },
+    {
+        "id": 6,
+        "name": "Bamazon",
+        "image": "../utils/assets/images/image-placeholder.png",
+        "link": "https://github.com/jshuang2/bamazon"
+    },
+    {
+        "id": 7,
+        "name": "Liri-Node-App",
+        "image": "../utils/assets/images/image-placeholder.png",
+        "link": "https://github.com/jshuang2/liri-node-app"
+    },
+    {
+        "id": 8,
+        "name": "Celebrity-GIPHY-API",
+        "image": "../utils/assets/images/image-placeholder.png",
+        "link": "https://github.com/jshuang2/Celebrity-GIPHY-API"
+    },
+    {
+        "id": 9,
+        "name": "Train-Scheduler",
+        "image": "../utils/assets/images/image-placeholder.png",
+        "link": "https://github.com/jshuang2/Train-Scheduler"
+    },
+    {
+        "id": 10,
+        "name": "Your Day Today",
+        "image": "../utils/assets/images/image-placeholder.png",
+        "link": "https://github.com/gouri10/Project1"
+    }
+]

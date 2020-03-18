@@ -16,9 +16,9 @@ function Header() {
                         </div>
                         
                         <div className="navbar-nav socialMediaList">
-                            <li className="nav-item nav-link"><a href="https://github.com/jshuang2" target="_blank"><i className="fab fa-github socialMedia"></i></a></li>
+                            <li className="nav-item nav-link"><a href="https://github.com/jshuang2" target="_blank" rel="noopener noreferrer"><i className="fab fa-github socialMedia"></i></a></li>
                             <li className="nav-item nav-link"><a href="mailto:jeffshuang2@gmail.com"><i className="fas fa-envelope socialMedia"></i></a></li>
-                            <li className="nav-item nav-link"><a href="https://www.linkedin.com/in/jeffshuang/" target="_blank"><i className="fab fa-linkedin-in socialMedia"></i></a></li>
+                            <li className="nav-item nav-link"><a href="https://www.linkedin.com/in/jeffshuang/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in socialMedia"></i></a></li>
                         </div>
 
 
