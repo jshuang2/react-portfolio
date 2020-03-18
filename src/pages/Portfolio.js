@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Header from "../components/Header/Header";
+import CardList from "../components/CardList/CardList";
 // import Footer from "../components/Footer/Footer";
 
 class Portfolio extends Component {
@@ -8,6 +9,7 @@ class Portfolio extends Component {
             <div>
                 <Header />
                 Welcome to the Portfolio page!
+                <CardList />
                 {/* <Footer /> */}
             </div>
         )
