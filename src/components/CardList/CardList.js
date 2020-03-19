@@ -14,7 +14,7 @@ class CardList extends Component {
 
         return (
             <div className="container d-flex justify-content-center">
-                <div className="cardWrapper">
+                <div className="portfolioCardWrapper">
                     {this.state.projects.map(project => (
                         <Card
                             key={project.id}
