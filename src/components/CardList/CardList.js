@@ -10,17 +10,19 @@ class CardList extends Component {
     }
 
     render() {
-        console.log("This is the state", this.state);
+        console.log("This is the state", this.state.projects);
 
         return (
-            <div className="cardWrapper">
-                {this.state.projects.map(project => (
-                    <Card 
-                    key={project.id}
-                    src={project.link}
-                    image={project.image}
-                    />
-                ))}
+            <div className="container d-flex justify-content-center">
+                <div className="cardWrapper">
+                    {this.state.projects.map(project => (
+                        <Card
+                            key={project.id}
+                            src={project.image}
+                            link={project.link}
+                        />
+                    ))}
+                </div>
             </div>
         )
     }

@@ -1,0 +1,25 @@
+.cardWrapper:hover > .img-container:not(:hover) {
+    opacity: 0.3;
+}
+
+
+
+/* .img-container {
+    transition: opacity 0.3s;
+} */
+
+@supports (transition: initial) {
+    .img-container {
+        transition: opacity 0.3s;
+    }
+}
+
+.portfolioCard {
+    margin-bottom: .6rem
+}
+
+.cardWrapper {
+    max-width: 92%;
+    margin-bottom: 5rem;
+}
+

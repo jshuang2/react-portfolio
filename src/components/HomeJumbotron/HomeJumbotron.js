@@ -8,7 +8,7 @@ function HomeJumbotron() {
             <section id="jumbotron">
                 <div className="container">
                     <div id="jumbotronContent">
-                        <h2 id="jumbotronHeader">About me</h2>
+                        <h2 id="jumbotronHeader">Hi, I'm Jeff.</h2>
                         <h3 id="headerSubtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper.</h3>
                         <p id="headerParagraphText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper, mauris vel finibus molestie, nibh erat pellentesque felis, sed laoreet.</p>
                     </div>
