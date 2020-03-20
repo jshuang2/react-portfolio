@@ -1,5 +1,5 @@
-.cardWrapper:hover > .img-container:not(:hover) {
-    opacity: 0.3;
+.portfolioCardWrapper:hover > .img-container:not(:hover) {
+    opacity: 0.5;
 }
 
 
@@ -15,7 +15,7 @@
 }
 
 .portfolioCard {
-    margin-bottom: .6rem
+    margin-bottom: .2rem
 }
 
 .portfolioCardWrapper {
