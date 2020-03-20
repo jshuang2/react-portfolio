@@ -8,14 +8,16 @@ function AboutJumbotron() {
             <section id="aboutJumbotron">
                 <div className="container">
                     <h2 id="aboutMeHeader">Who am I?</h2>
-                    <div className="headerLineShort"></div>
-                    <p id="headerParagraphText" className="centerText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut.</p>
+                    {/* <div className="headerLineShort"></div> */}
+                    {/* <p id="aboutHeaderSubtext" className="centerText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut.</p> */}
                     <div id="aboutJumbotronContent">
-                        <p className="aboutHeaderParagraphText">In vel pellentesque magna. Pellentesque ac diam rhoncus tellus elementum vulputate malesuada a dui. Morbi consectetur purus id augue suscipit, eget posuere enim elementum. Nullam elit risus, condimentum id lacus et, aliquet mattis nisl. Pellentesque at luctus augue. Donec egestas turpis eget arcu congue venenatis. Aliquam a efficitur sem. Morbi vitae quam ligula. Donec faucibus dolor id purus tristique vulputate. In quis tempus justo.</p>
+                        <p className="aboutHeaderParagraphText">My background stems from a mixture of marketing and UX/UI design. After graduating from the University of Louisville with a degree in marketing, I discovered a newfound interest in designing user experiences. It was soon after discovering UX that I realized I enjoyed creating these user experiences more than I did designing them.</p>
+
                         
-                        <p className="aboutHeaderParagraphText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consequat nulla ac iaculis tempor. Phasellus pellentesque sit amet velit vitae lacinia. Phasellus sit amet turpis quis neque tristique luctus ut tristique metus. Vivamus scelerisque ornare elementum. Morbi ac lacus sem.</p>
+                        <p className="aboutHeaderParagraphText">I enrolled in the University of Washington's full-stack web development coding bootcamp. I can honestly say I never enjoyed learning more than I did while taking this course. As someone whose life has revolved around computers and technology their entire life, I fell in love with coding immediately! </p>
                         
-                        <p className="aboutHeaderParagraphText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis egestas diam nec tincidunt eleifend. Vestibulum iaculis eros quis pulvinar accumsan. Cras id arcu lacus. Aenean mollis, metus sit amet elementum.</p>
+                        
+                        <p className="aboutHeaderParagraphText">I specialize in front end development with React JS, but I also have experience developing full-stack MERN applications. However, like I said, I love learning so I'm constantly trying to learn new innovative technologies in the programming world.</p>
                     </div>
                     <img id="profilePic" src={profilePic} alt="Profile"></img>
                 </div>

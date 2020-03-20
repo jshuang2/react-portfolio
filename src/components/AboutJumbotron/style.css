@@ -5,13 +5,13 @@
     font-size: 4.25rem;
  }
 
-.headerLineShort {
+/* .headerLineShort {
     height: 0.0625rem;
     background: #DDD;
     margin: 1.25rem auto;
     position: relative;
     width: 50%;
-}
+} */
 
 .centerText {
     text-align: center;
@@ -33,3 +33,8 @@
     font-size: 1.125rem;
     line-height: 1.625rem;
 }
+
+/* #aboutHeaderSubtext {
+    font-size: 1.5rem;
+    line-height: 1.625rem;
+} */
