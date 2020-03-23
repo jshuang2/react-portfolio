@@ -1,13 +1,20 @@
 import React from 'react'
 import "./style.css"
-import profilePic from "../../utils/assets/images/Profile Pic Snip.PNG"
+// import ProfilePic from "../../utils/assets/images/Profile Pic Snip.PNG"
+import MtRainier from "../../utils/assets/images/mt-rainier.jpg"
+import Seattle2 from "../../utils/assets/images/seattle-2.JPG"
+import Montana from "../../utils/assets/images/montana.JPG"
+import Family from "../../utils/assets/images/family.JPG"
+// import Colorado from "../../utils/assets/images/colorado.JPG"
 
 function AboutJumbotron() {
     return (
         <div>
             <section id="aboutJumbotron">
                 <div className="container">
+                    <div id="aboutHeaderContainer">
                     <h2 id="aboutMeHeader">Who am I?</h2>
+                    </div>
                     {/* <div className="headerLineShort"></div> */}
                     {/* <p id="aboutHeaderSubtext" className="centerText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut.</p> */}
                     <div id="aboutJumbotronContent">
@@ -19,7 +26,12 @@ function AboutJumbotron() {
                         
                         <p className="aboutHeaderParagraphText">I specialize in front end development with React JS, but I also have experience developing full-stack MERN applications. However, like I said, I enjoy learning so I'm constantly dabbling with new innovative technologies in the programming world.</p>
                     </div>
-                    <img id="profilePic" src={profilePic} alt="Profile"></img>
+                    {/* <img id="profilePic" className="aboutPic" src={ProfilePic} alt="Profile"></img> */}
+                    <img id="mtRainier" className="aboutPic" src={MtRainier} alt="Mt Rainier"></img>
+                    <img id="montana" className="aboutPic" src={Montana} alt="Montana"></img>
+                    <img id="seattle2" className="aboutPic" src={Seattle2} alt="Seattle"></img>
+                    <img id="family" className="aboutPic" src={Family} alt="My family"></img>
+                    {/* <img id="colorado" className="aboutPic" src={Colorado} alt="Colorado"></img> */}
                 </div>
             </section>
         </div>

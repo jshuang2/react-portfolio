@@ -23,6 +23,10 @@
     box-shadow: 0 0 0.625rem 0 #636363;
 }
 
+#aboutHeaderContainer {
+    max-width: 35.625rem;
+}
+
 #aboutJumbotronContent {
     padding-top: 2.5rem;
     float:left;
@@ -38,3 +42,29 @@
     font-size: 1.5rem;
     line-height: 1.625rem;
 } */
+
+.aboutPic {
+    max-width: 25%;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+}
+
+#mtRainier {
+    transform: translate(250px, -50px);
+    position: relative;
+}
+
+#montana {
+    transform: translate(90px, -130px);
+    position: relative;
+    z-index: 1;
+}
+
+#seattle2 {
+    transform: translate(250px, -170px);
+    position: relative;
+}
+
+#family {
+    transform: translate(660px, -250px);
+    position: relative;
+}
