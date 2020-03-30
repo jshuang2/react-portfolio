@@ -49,19 +49,19 @@
 }
 
 #mtRainier {
-    transform: translate(250px, -50px);
+    transform: translate(250px, -170px);
     position: relative;
 }
 
 #montana {
-    transform: translate(90px, -130px);
+    transform: translate(250px, -50px);
     position: relative;
-    z-index: 1;
 }
 
 #seattle2 {
-    transform: translate(250px, -170px);
+    transform: translate(90px, -130px);
     position: relative;
+    z-index: 1;
 }
 
 #family {
