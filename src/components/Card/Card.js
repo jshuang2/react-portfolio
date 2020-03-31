@@ -1,4 +1,5 @@
 import React from 'react'
+import "./style.css"
 
 
 function Card({src}) {
@@ -7,7 +8,7 @@ function Card({src}) {
     return (
         <div className="img-container">
             <div className="card portfolioCard">
-                <img className="imagePlaceholder" src={src} alt="Project One" />
+                <img className="cardImage" src={src} alt="Project One" />
             </div>
         </div>
     )
