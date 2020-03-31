@@ -15,7 +15,8 @@
 }
 
 .portfolioCard {
-    margin-bottom: .2rem
+    margin-bottom: .2rem;
+    cursor: pointer;
 }
 
 .portfolioCardWrapper {

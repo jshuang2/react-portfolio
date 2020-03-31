@@ -9,6 +9,7 @@ class CardList extends Component {
         projects
     }
 
+
     render() {
         console.log("This is the state", this.state.projects);
 
@@ -20,6 +21,8 @@ class CardList extends Component {
                             key={project.id}
                             src={project.image}
                             link={project.link}
+                            name={project.name}
+                            tags={project.description}
                         />
                     ))}
                 </div>

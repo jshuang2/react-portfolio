@@ -2,54 +2,63 @@
     {
         "id": 1,
         "name": "Google Books Search",
+        "description": "Full stack MERN",
         "image": "./images/google-books-search.png",
         "link": "https://github.com/jshuang2/react-google-books-search"
     },
     {
         "id": 2,
         "name": "React Clicky Game",
+        "description": "React",
         "image": "./images/game-of-thrones-memory.png",
         "link": "https://github.com/jshuang2/react-clicky-game"
     },
     {
         "id": 3,
         "name": "Portfolio Website",
+        "description": "React w/ hooks",
         "image": "./images/image-placeholder.png",
         "link": "https://github.com/jshuang2/react-portfolio"
     },
     {
         "id": 4,
         "name": "Mongo Web Scraper",
+        "description": "MongoDB, JS, Express, Node",
         "image": "./images/mongo-web-scraper.png",
         "link": "https://github.com/jshuang2/MongoWebScraper"
     },
     {
         "id": 5,
         "name": "Spotifind Me!",
+        "description": "MySQL, JS, Express, Node",
         "image": "./images/spotifind-me.png",
         "link": "https://github.com/eawhite00/Project2"
     },
     {
         "id": 6,
         "name": "Bamazon",
+        "description": "Node",
         "image": "./images/bamazon.png",
         "link": "https://github.com/jshuang2/bamazon"
     },
     {
         "id": 7,
         "name": "Liri-Node-App",
+        "description": "Node",
         "image": "./images/liri-node-app.png",
         "link": "https://github.com/jshuang2/liri-node-app"
     },
     {
         "id": 8,
         "name": "Celebrity-GIPHY-API",
+        "description": "JS, jQuery",
         "image": "./images/GIPHY-API.png",
         "link": "https://github.com/jshuang2/Celebrity-GIPHY-API"
     },
     {
         "id": 9,
         "name": "Train-Scheduler",
+        "description": "JS, Firebase, Moment JS",
         "image": "./images/train-scheduler.png",
         "link": "https://github.com/jshuang2/Train-Scheduler"
     }
