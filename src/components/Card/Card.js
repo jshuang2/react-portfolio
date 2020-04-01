@@ -10,8 +10,10 @@ function Card({ src, link, name, tags }) {
             <a href={link} target="_blank" rel="noopener noreferrer">
                 <div className="card portfolioCard">
                     <img className="cardImage" src={src} alt="Project One" />
-                    <p className="cardName">{name}</p>
-                    <p className="cardTags">{tags}</p>
+                    <div className="cardText">
+                        <p className="cardName">{name}</p>
+                        <p className="cardTags">{tags}</p>
+                    </div>
                 </div>
             </a>
         </div>
