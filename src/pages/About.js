@@ -4,15 +4,18 @@ import AboutJumbotron from "../components/AboutJumbotron/AboutJumbotron";
 import CoreSkills from "../components/CoreSkills/CoreSkills";
 import Form from "../components/Form/Form";
 import Footer from "../components/Footer/Footer";
+import "./style.css";
 
 class About extends Component {
     render() {
         return (
-            <div>
-                <Header />
-                <AboutJumbotron />
-                <CoreSkills />
-                <Form />
+            <div id="page-container">
+                <div id="content-wrap">
+                    <Header />
+                    <AboutJumbotron />
+                    <CoreSkills />
+                    <Form />
+                </div>
                 <Footer />
             </div>
         )

@@ -4,15 +4,18 @@ import HomeJumbotron from "../components/HomeJumbotron/HomeJumbotron";
 import CodeBlock from "../components/CodeBlock/CodeBlock";
 import UXBlock from "../components/UXBlock/UXBlock";
 import Footer from "../components/Footer/Footer";
+import "./style.css";
 
 class Home extends Component {
     render() {
         return (
-            <div>
-                <Header />
-                <HomeJumbotron />
-                <CodeBlock />
-                <UXBlock />
+            <div id="page-container">
+                <div id="content-wrap">
+                    <Header />
+                    <HomeJumbotron />
+                    <CodeBlock />
+                    <UXBlock />
+                </div>
                 <Footer />
             </div>
         )
