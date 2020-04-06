@@ -37,7 +37,6 @@
     justify-content: center;
     margin: 2rem 0;
     box-shadow: 0rem 0.0625rem 0.25rem 0rem rgba(0, 0, 0, 0.4);
-    /* padding-bottom: 3.75rem; */
 }
 
 .imagePlaceholder {
@@ -48,4 +47,8 @@
 
 #uxWrapper {
     margin-bottom: 3.75rem;
+}
+
+.homeCard {
+    padding-bottom: 3.75rem;
 }
