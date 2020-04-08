@@ -13,18 +13,31 @@ class CodeBlock extends Component {
                         </div>
                         <div className="cardWrapper">
                             <a href="https://github.com/jshuang2/react-google-books-search" target="_blank" rel="noopener noreferrer">
-                                <div className="card homeCard">
+                                <div className="card homeCard grow">
                                     <img className="cardImage" src={context[0].image} alt="Project One: Google Books Search" />
+                                    <div className="cardText">
+                                        <p className="cardName">Google Books Search</p>
+                                        <p className="cardTags">MongoDB, Express, React, Node</p>
+                                    </div>
                                 </div>
+
                             </a>
                             <a href="https://github.com/jshuang2/react-clicky-game" target="_blank" rel="noopener noreferrer">
-                                <div className="card homeCard">
+                                <div className="card homeCard grow">
                                     <img className="cardImage" src={context[1].image} alt="Project Two: Game of Thrones Memory" />
+                                    <div className="cardText">
+                                        <p className="cardName">Game of Thrones Memory</p>
+                                        <p className="cardTags">React</p>
+                                    </div>
                                 </div>
                             </a>
                             <a href="https://github.com/jshuang2/MongoWebScraper" target="_blank" rel="noopener noreferrer">
-                                <div className="card homeCard">
+                                <div className="card homeCard grow">
                                     <img className="cardImage" src={context[3].image} alt="Project Three: Mongo Web Scraper" />
+                                    <div className="cardText">
+                                        <p className="cardName">Mongo Web Scraper</p>
+                                        <p className="cardTags">MongoDB, JS, Express, Node</p>
+                                    </div>
                                 </div>
                             </a>
                         </div>

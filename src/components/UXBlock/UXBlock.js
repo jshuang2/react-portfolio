@@ -14,18 +14,30 @@ class CodeBlock extends Component {
                 </div>
                 <div className="cardWrapper" id="uxWrapper">
                     <a href="https://jeffhuangux.com/wander-webpage" target="_blank" rel="noopener noreferrer">
-                        <div className="card homeCard">
+                        <div className="card homeCard grow">
                             <img className="cardImage" src={wanderWeb} alt="Project One: Wander Landing Page" />
+                            <div className="cardText">
+                                <p className="cardName">Wander landing page</p>
+                                <p className="cardTags">Adobe XD, Balsamiq</p>
+                            </div>
                         </div>
                     </a>
                     <a href="https://jeffhuangux.com/wander" target="_blank" rel="noopener noreferrer">
-                        <div className="card homeCard">
+                        <div className="card homeCard grow">
                             <img className="cardImage" src={wanderApp} alt="Project Two: Wander App" />
+                            <div className="cardText">
+                                <p className="cardName">Wander app</p>
+                                <p className="cardTags">Adobe XD, Whimsical</p>
+                            </div>
                         </div>
                     </a>
                     <a href="https://jeffhuangux.com/craft" target="_blank" rel="noopener noreferrer">
-                        <div className="card homeCard">
+                        <div className="card homeCard grow">
                             <img className="cardImage" src={craft} alt="Project Three: Craft App" />
+                            <div className="cardText">
+                                <p className="cardName">CRAFT</p>
+                                <p className="cardTags">Adobe XD</p>
+                            </div>
                         </div>
                     </a>
                 </div>

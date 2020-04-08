@@ -2,13 +2,13 @@
     {
         "id": 1,
         "name": "Google Books Search",
-        "description": "Full stack MERN",
+        "description": "MongoDB, Express, React, Node",
         "image": "./images/google-books-search.png",
         "link": "https://github.com/jshuang2/react-google-books-search"
     },
     {
         "id": 2,
-        "name": "React Clicky Game",
+        "name": "Game of Thrones Memory",
         "description": "React",
         "image": "./images/game-of-thrones-memory.png",
         "link": "https://github.com/jshuang2/react-clicky-game"

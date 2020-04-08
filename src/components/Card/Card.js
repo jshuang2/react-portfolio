@@ -6,7 +6,7 @@ function Card({ src, link, name, tags }) {
     console.log("This is src", src);
 
     return (
-        <div className="img-container">
+        <div className="img-container grow">
             <a href={link} target="_blank" rel="noopener noreferrer">
                 <div className="card portfolioCard">
                     <img className="cardImage" src={src} alt="Project One" />

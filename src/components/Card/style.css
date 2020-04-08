@@ -22,3 +22,10 @@ a:link{
     color:#808080;
     font-size: 90%;
 }
+
+.grow {
+    transition: all .1s ease-in-out; }
+
+.grow:hover { 
+    transform: scale(1.03); 
+}
