@@ -3,6 +3,7 @@ import Header from "../components/Header/Header";
 import AboutJumbotron from "../components/AboutJumbotron/AboutJumbotron";
 import CoreSkills from "../components/CoreSkills/CoreSkills";
 import Form from "../components/Form/Form";
+import ContactForm from "../components/Contact/ContactForm";
 import Footer from "../components/Footer/Footer";
 import "./style.css";
 
@@ -14,7 +15,7 @@ class About extends Component {
                     <Header />
                     <AboutJumbotron />
                     <CoreSkills />
-                    <Form />
+                    <ContactForm />
                 </div>
                 <Footer />
             </div>
