@@ -12,7 +12,7 @@ function Header() {
                         <div className="navbar-nav ml-auto">
                             <Link className="nav-item nav-link pageLink" to="/about">About</Link>
                             <Link className="nav-item nav-link pageLink" to="/portfolio">Portfolio</Link>
-                            <a className="nav-item nav-link pageLink" href="https://drive.google.com/file/d/1tC9oh7TpvWkU_f_YcQ1fAWlE9r6ANM0A/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+                            <a className="nav-item nav-link pageLink" href="https://drive.google.com/file/d/1Vp_46WkDn_8eggbRxS85PAPnEkPKm-SU/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
                         </div>
                         
                         <div className="navbar-nav socialMediaList">
