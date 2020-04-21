@@ -3,14 +3,14 @@
         "id": 1,
         "name": "Google Books Search",
         "description": "MongoDB, Express, React, Node",
-        "image": "./images/google-books-search.png",
+        "image": "./images/google-books-search-compressed.png",
         "link": "https://github.com/jshuang2/react-google-books-search"
     },
     {
         "id": 2,
         "name": "Game of Thrones Memory",
         "description": "React",
-        "image": "./images/game-of-thrones-memory.png",
+        "image": "./images/game-of-thrones-memory-compressed.png",
         "link": "https://github.com/jshuang2/react-clicky-game"
     },
     {
@@ -24,7 +24,7 @@
         "id": 4,
         "name": "Mongo Web Scraper",
         "description": "MongoDB, JS, Express, Node",
-        "image": "./images/mongo-web-scraper.png",
+        "image": "./images/mongo-web-scraper-compressed.png",
         "link": "https://github.com/jshuang2/MongoWebScraper"
     },
     {

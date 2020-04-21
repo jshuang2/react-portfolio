@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import wanderWeb from "../../utils/assets/images/wander-web-mockup.PNG"
-import wanderApp from "../../utils/assets/images/wander-app-mockup.png"
+import wanderWeb from "../../utils/assets/images/wander-web-mockup-compressed.png"
+import wanderApp from "../../utils/assets/images/wander-app-mockup-compressed.png"
 import craft from "../../utils/assets/images/craft-mockup.jpg"
 import "./style.css"
 
