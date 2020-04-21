@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import SpaceNeedle from "../../utils/assets/images/space-needle.jpg";
+import SpaceNeedle from "../../utils/assets/images/space-needle-compressed.jpg";
 
 export default class ContactForm extends React.Component {
     constructor(props) {

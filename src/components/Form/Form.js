@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./style.css"
-import SpaceNeedle from "../../utils/assets/images/space-needle.jpg";
+import SpaceNeedle from "../../utils/assets/images/space-needle-compressed.jpg";
 
 function Form() {
 

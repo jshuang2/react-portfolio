@@ -1,9 +1,9 @@
 import React from 'react'
 import "./style.css"
-import MtRainier from "../../utils/assets/images/mt-rainier.jpg"
-import Seattle2 from "../../utils/assets/images/seattle-2.JPG"
-import Montana from "../../utils/assets/images/montana.JPG"
-import Family from "../../utils/assets/images/family.JPG"
+import MtRainier from "../../utils/assets/images/mt-rainier-compressed.jpg"
+import Seattle2 from "../../utils/assets/images/seattle-2-compressed.jpg"
+import Montana from "../../utils/assets/images/montana-compressed.jpg"
+import Family from "../../utils/assets/images/family-compressed.jpg"
 
 function AboutJumbotron() {
     return (
