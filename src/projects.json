@@ -31,14 +31,14 @@
         "id": 5,
         "name": "Spotifind Me!",
         "description": "MySQL, JS, Express, Node",
-        "image": "./images/spotifind-me.png",
+        "image": "./images/spotifind-me-compressed.png",
         "link": "https://github.com/eawhite00/Project2"
     },
     {
         "id": 6,
         "name": "Bamazon",
         "description": "Node",
-        "image": "./images/bamazon.png",
+        "image": "./images/bamazon-compressed.png",
         "link": "https://github.com/jshuang2/bamazon"
     },
     {
@@ -52,14 +52,14 @@
         "id": 8,
         "name": "Celebrity-GIPHY-API",
         "description": "JS, jQuery",
-        "image": "./images/GIPHY-API.png",
+        "image": "./images/GIPHY-API-compressed.png",
         "link": "https://github.com/jshuang2/Celebrity-GIPHY-API"
     },
     {
         "id": 9,
         "name": "Train-Scheduler",
         "description": "JS, Firebase, Moment JS",
-        "image": "./images/train-scheduler.png",
+        "image": "./images/train-scheduler-compressed.png",
         "link": "https://github.com/jshuang2/Train-Scheduler"
     }
 ]
