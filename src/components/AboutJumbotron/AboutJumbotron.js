@@ -22,11 +22,12 @@ function AboutJumbotron() {
                         
                         <p className="aboutHeaderParagraphText">I specialize in front end development with React JS, but I also have experience developing full-stack MERN applications. However, I'm constantly dabbling with new innovative technologies in the programming world.</p>
                     </div>
+                    <div className="aboutImagesContainer">
                     <img id="montana" className="aboutPic" src={Montana} alt="Montana"></img>
                     <img id="seattle2" className="aboutPic" src={Seattle2} alt="Seattle"></img>
                     <img id="mtRainier" className="aboutPic" src={MtRainier} alt="Mt Rainier"></img>
                     <img id="family" className="aboutPic" src={Family} alt="My family"></img>
-                    
+                    </div>
                 </div>
             </section>
         </div>

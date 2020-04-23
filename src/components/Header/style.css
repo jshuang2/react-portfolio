@@ -12,6 +12,10 @@
     list-style-type: none;
 }
 
+.nav-item:hover, .navbar-brand:hover {
+    opacity: .7;
+}
+
 .navbar-brand {
     color: white !important;
 }
