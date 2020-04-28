@@ -4,6 +4,10 @@
     background-color: #282828;
 }
 
+a {
+    color: white !important;
+}
+
 .nav-item {
     color: white !important;
     font-size: 1.1rem;
@@ -33,3 +37,8 @@
 .pageLink {
     margin-left: .6rem;
 }
+
+/* .collapse {
+    background-color: #808080;
+    
+} */
