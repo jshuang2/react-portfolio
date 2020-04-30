@@ -52,19 +52,19 @@ class Header extends Component {
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div className={` collapse navbar-collapse ${this.state.isMenuVisible ? "openMenuArea dropdown-menu dropdown-menu-right" : ""}`} id="navbarNavAltMarkup">
                         <ul className="navbar-nav ml-auto">
-                            <li className={`nav-item nav-link pageLink ${this.state.isMenuVisible ? "openMenu" : ""}`}><Link to="/about">About</Link></li>
-                            <li className={`nav-item nav-link pageLink ${this.state.isMenuVisible ? "openMenu" : ""}`}><Link to="/portfolio">Portfolio</Link></li>
-                            <li><a className={`nav-item nav-link pageLink ${this.state.isMenuVisible ? "openMenu" : ""}`} href="https://drive.google.com/file/d/1Vp_46WkDn_8eggbRxS85PAPnEkPKm-SU/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+                            <li className={`nav-item nav-link ${this.state.isMenuVisible ? "openMenu dropdown-item" : "pageLink"}`}><Link to="/about">About</Link></li>
+                            <li className={`nav-item nav-link ${this.state.isMenuVisible ? "openMenu dropdown-item" : "pageLink"}`}><Link to="/portfolio">Portfolio</Link></li>
+                            <li className={`nav-item nav-link ${this.state.isMenuVisible ? "openMenu dropdown-item" : "pageLink"}`} ><a href="https://drive.google.com/file/d/1Vp_46WkDn_8eggbRxS85PAPnEkPKm-SU/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
                             </li>
                         </ul>
 
 
-                        <ul className="navbar-nav socialMediaList">
-                            <li className={`nav-item nav-link ${this.state.isMenuVisible ? "openMenu" : ""}`}><a href="https://github.com/jshuang2" target="_blank" rel="noopener noreferrer"><i className="fab fa-github socialMedia"></i></a></li>
-                            <li className={`nav-item nav-link ${this.state.isMenuVisible ? "openMenu" : ""}`}><a href="mailto:jeffshuang2@gmail.com"><i className="fas fa-envelope socialMedia"></i></a></li>
-                            <li className={`nav-item nav-link ${this.state.isMenuVisible ? "openMenu" : ""}`}><a href="https://www.linkedin.com/in/jeffshuang/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in socialMedia"></i></a></li>
+                        <ul className={` navbar-nav ${this.state.isMenuVisible ? "socialMediaDropDown" : "socialMediaList"} `}>
+                            <li className={`nav-item nav-link ${this.state.isMenuVisible ? "openMenu dropdown-item socialMediaDropDown" : ""}`}><a href="https://github.com/jshuang2" target="_blank" rel="noopener noreferrer"><i className={`fab fa-github ${this.state.isMenuVisible ? "socialMediaIconDropDown" : "socialMedia"} `}></i></a></li>
+                            <li className={`nav-item nav-link ${this.state.isMenuVisible ? "openMenu dropdown-item socialMediaDropDown" : ""}`}><a href="mailto:jeffshuang2@gmail.com"><i className={` fas fa-envelope ${this.state.isMenuVisible ? "socialMediaIconDropDown" : "socialMedia"} `}></i></a></li>
+                            <li className={`nav-item nav-link ${this.state.isMenuVisible ? "openMenu dropdown-item socialMediaDropDown" : ""}`}><a href="https://www.linkedin.com/in/jeffshuang/" target="_blank" rel="noopener noreferrer"><i className={`fab fa-linkedin-in ${this.state.isMenuVisible ? "socialMediaIconDropDown" : "socialMedia"} `}></i></a></li>
                         </ul>
 
 
