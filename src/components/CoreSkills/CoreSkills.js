@@ -13,7 +13,7 @@ function CoreSkills() {
         <div className="container">
             <h3 className="centerText" id="aboutSectionHeader">Core Skills</h3>
             <div className="d-flex justify-content-center">
-                <div>
+                <div className="skillsIconContainer">
                 <img src={ReactLogo} alt="React" className="skillsIcon iconOne"></img>
                 <img src={MySQLLogo} alt="MySQL" className="skillsIcon iconTwo"></img>
                 <img src={JavaScriptLogo} alt="JavaScript" className="skillsIcon iconOne"></img>

@@ -49,13 +49,46 @@
     position: relative;
 }
 
-#seattle2 {
-    transform: translate(90px, -130px);
-    position: relative;
-    z-index: 1;
+@media screen and (min-width: 1203px) {
+    #seattle2 {
+        transform: translate(90px, -130px);
+        position: relative;
+        z-index: 1;
+    }
 }
 
-#family {
-    transform: translate(660px, -250px);
-    position: relative;
+@media screen and (min-width: 1203px) {
+    #family {
+        transform: translate(660px, -250px);
+        position: relative;
+    }
+}
+
+
+@media screen and (max-width: 1202px) {
+    #montana, #mtRainier {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 995px) and (max-width: 1202px) {
+    #seattle2 {
+        transform: translate(80px, 60px)
+    }
+
+    #family {
+        transform: translate(80px, 100px)
+    }
+}
+
+@media screen and (max-width: 994px) {
+    #seattle2, #family {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 513px) {
+    #aboutJumbotron {
+        height: 62rem;
+    }
 }
