@@ -31,5 +31,9 @@
     #seattlePic {
         display: none;
     }
+
+    #contactForm {
+        max-width: 100%;
+    }
 }
 
