@@ -1,14 +1,3 @@
-.portfolioCardWrapper:hover > .img-container:not(:hover) {
-    opacity: 0.5;
-    
-}
-
-
-
-/* .img-container {
-    transition: opacity 0.3s;
-} */
-
 @supports (transition: initial) {
     .img-container {
         transition: opacity 0.3s;
@@ -28,3 +17,9 @@
     justify-content: space-between;
 }
 
+@media screen and (min-width: 992px) {
+    .portfolioCardWrapper:hover > .img-container:not(:hover) {
+        opacity: 0.5;
+        
+    }
+}
