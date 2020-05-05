@@ -39,3 +39,15 @@
     box-shadow: 0rem 0.0625rem 0.25rem 0rem rgba(0, 0, 0, 0.4);
 }
 
+@media screen and (max-width: 767px) {
+    .cardWrapper {
+        display: block;
+    }
+
+    .homeCard {
+        margin-top: 0px !important;
+    }
+    
+}
+
+
