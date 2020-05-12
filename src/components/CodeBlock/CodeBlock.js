@@ -33,10 +33,10 @@ class CodeBlock extends Component {
                             </a>
                             <a href="https://github.com/jshuang2/MongoWebScraper" target="_blank" rel="noopener noreferrer">
                                 <div className="card homeCard grow">
-                                    <img className="cardImage" src={context[3].image} alt="Project Three: Mongo Web Scraper" />
+                                    <img className="cardImage" src={context[2].image} alt="Project Three: Mongo Web Scraper" />
                                     <div className="cardText">
-                                        <p className="cardName">Mongo Web Scraper</p>
-                                        <p className="cardTags">MongoDB, JS, Express, Node</p>
+                                        <p className="cardName">React Portfolio</p>
+                                        <p className="cardTags">React, Hooks, Context API</p>
                                     </div>
                                 </div>
                             </a>

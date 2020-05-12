@@ -16,8 +16,8 @@
     {
         "id": 3,
         "name": "Portfolio Website",
-        "description": "React w/ hooks",
-        "image": "./images/image-placeholder.png",
+        "description": "React, Hooks, Context API",
+        "image": "./images/portfolio-compressed.jpg",
         "link": "https://github.com/jshuang2/react-portfolio"
     },
     {
