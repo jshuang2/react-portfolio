@@ -35,7 +35,7 @@ class CodeBlock extends Component {
                                 <div className="card homeCard grow">
                                     <img className="cardImage" src={context[2].image} alt="Project Three: Mongo Web Scraper" />
                                     <div className="cardText">
-                                        <p className="cardName">React Portfolio</p>
+                                        <p className="cardName">Portfolio Website</p>
                                         <p className="cardTags">React, Hooks, Context API</p>
                                     </div>
                                 </div>
