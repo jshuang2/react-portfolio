@@ -3,7 +3,6 @@ import "./style.css"
 
 
 function Card({ src, link, name, tags }) {
-    console.log("This is src", src);
 
     return (
         <div className="img-container grow">
