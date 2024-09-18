@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style.css"
-import profilePic from "../../utils/assets/images/Profile-Pic-Snip-compressed.png"
+import profilePic from "../../utils/assets/images/src/utils/assets/images/jeffhuang_headshot_2024_compressed.jpg"
 
 function HomeJumbotron() {
     return (
