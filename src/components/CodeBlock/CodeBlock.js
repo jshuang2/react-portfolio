@@ -31,7 +31,7 @@ class CodeBlock extends Component {
                                     </div>
                                 </div>
                             </a>
-                            <a href="https://github.com/jshuang2/MongoWebScraper" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/jshuang2/react-portfolio" target="_blank" rel="noopener noreferrer">
                                 <div className="card homeCard grow">
                                     <img className="cardImage" src={context[2].image} alt="Project Three: Mongo Web Scraper" />
                                     <div className="cardText">
