@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from "../components/Header/Header";
 import HomeJumbotron from "../components/HomeJumbotron/HomeJumbotron";
 import CodeBlock from "../components/CodeBlock/CodeBlock";
-import UXBlock from "../components/UXBlock/UXBlock";
+// import UXBlock from "../components/UXBlock/UXBlock";
 import Footer from "../components/Footer/Footer";
 import projects from "../projects.json";
 import HomeContext from "../context/home-context";
