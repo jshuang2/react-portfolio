@@ -9,7 +9,7 @@ class CodeBlock extends Component {
                 {context => (
                     <div className="container">
                         <div className="headerLine">
-                            <h3 className="bodyHeader">Code</h3>
+                            <h3 className="bodyHeader">Projects</h3>
                         </div>
                         <div className="cardWrapper">
                             <a href="https://github.com/jshuang2/react-google-books-search" target="_blank" rel="noopener noreferrer">
