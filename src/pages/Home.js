@@ -30,7 +30,7 @@ class Home extends Component {
                     <HomeJumbotron />
                     <HomeContext.Provider value={this.state.projects}>
                         <CodeBlock />
-                        <UXBlock />
+                        {/* <UXBlock /> */}
                     </HomeContext.Provider>
                 </div>
                 <Footer />
