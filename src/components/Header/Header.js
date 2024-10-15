@@ -56,7 +56,7 @@ class Header extends Component {
                         <ul className="navbar-nav ml-auto">
                             <li className={`nav-item nav-link ${this.state.isMenuVisible ? "openMenu dropdown-item" : "pageLink"}`}><Link to="/about">About</Link></li>
                             <li className={`nav-item nav-link ${this.state.isMenuVisible ? "openMenu dropdown-item" : "pageLink"}`}><Link to="/portfolio">Portfolio</Link></li>
-                            <li className={`nav-item nav-link ${this.state.isMenuVisible ? "openMenu dropdown-item" : "pageLink"}`} ><a href="https://drive.google.com/file/d/15cZ-6DrcCiRnmWi5YganBMOLai6PjuKo/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Resume</a>
+                            <li className={`nav-item nav-link ${this.state.isMenuVisible ? "openMenu dropdown-item" : "pageLink"}`} ><a href="https://drive.google.com/file/d/1dOfCP2uwy-IB_jEGBmd0rnl53R-aKLCK/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Resume</a>
                             </li>
                         </ul>
 
